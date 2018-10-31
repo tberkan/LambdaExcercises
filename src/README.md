@@ -46,4 +46,9 @@ Also write the following functions:
 - Grouping by TaskType and createdOn
 
 
+# How to sumbit your code
 
+- Fork the Repository and solve the tasks
+- Deadline is 12 November.
+- I will review the code and give you feedback individually.
+- Meanwhile feel free to ask me questions related with the tasks.
