@@ -50,3 +50,5 @@ Also write the following functions:
 
 - Fork the Repository and solve the tasks
 - Deadline is 12 November.
+- I will review the code and give you feedback individually.
+- Meanwhile feel free to ask me questions related with the tasks.
