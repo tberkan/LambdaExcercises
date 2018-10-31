@@ -5,7 +5,7 @@
 Lambdafy the code
 
 The code first fetches all the Tasks from a utility method getTasks.
-Once you have tasks, we filter all the reading tasks and extract the title field from the task.
+Once you have the tasks, we filter all the reading tasks and extract the title field from each.
 We add extracted title to a list and then finally return all the reading titles.
 # Hints
 Use Predicate<T> to filter the tasks.
@@ -19,7 +19,7 @@ Use method reference for extractor
 The code prints all the reading task titles,sorted by their title length.
 Java 7 developers write this kind of code every day.
 To write such a simple program, we had to write 15 lines of Java code.
-The bigger problem with the above mentioned code is not the number of lines a developer has to write but,
+The bigger problem in this code is not the number of lines a developer has to write but,
 that it misses the developer's intent, i.e. filtering reading tasks, sorting by title length, and transforming to String List.
 - Find all reading task titles sorted by their creation date.
 - Find distinct tasks
