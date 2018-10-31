@@ -31,11 +31,15 @@ public class Task {
 
     public static List<Task> getTasks() {
         List<Task> tasks = new ArrayList<>();
-        Set<String> tags = new HashSet<>();
-        tags.add("coding");
-        tags.add("refactoring");
-        tags.add("reading");
-        tags.add("blogging");
+        Set<String> tagsReading = new HashSet<>();
+        Set<String> tagsCoding = new HashSet<>();
+        Set<String> tagsBlogging = new HashSet<>();
+        tagsCoding.add("coding");
+        tagsCoding.add("refactoring");
+        tagsReading.add("reading");
+        tagsReading.add("books");
+        tagsBlogging.add("blogging");
+        tagsBlogging.add("writings posts");
 
         tasks.add(
             new Builder()
@@ -44,7 +48,7 @@ public class Task {
                 .description("Code needs to be refactored")
                 .createdOn(LocalDate.of(2018, 11, 1))
                 .type(TaskType.CODING)
-                .tags(tags)
+                .tags(tagsCoding)
                 .build()
         );
 
@@ -55,7 +59,7 @@ public class Task {
                 .description("New feature needs to be added")
                 .createdOn(LocalDate.of(2018, 11, 4))
                 .type(TaskType.CODING)
-                .tags(tags)
+                .tags(tagsCoding)
                 .build()
         );
 
@@ -66,7 +70,7 @@ public class Task {
                 .description("Reading new book about Domain Driven Development")
                 .createdOn(LocalDate.of(2018, 11, 1))
                 .type(TaskType.READING)
-                .tags(tags)
+                .tags(tagsReading)
                 .build()
         );
 
@@ -77,7 +81,7 @@ public class Task {
                 .description("Reading new book about Design Patterns")
                 .createdOn(LocalDate.of(2018, 11, 4))
                 .type(TaskType.READING)
-                .tags(tags)
+                .tags(tagsReading)
                 .build()
         );
         tasks.add(
@@ -87,7 +91,7 @@ public class Task {
                 .description("Reading new book about Java Lambda")
                 .createdOn(LocalDate.of(2018, 11, 4))
                 .type(TaskType.READING)
-                .tags(tags)
+                .tags(tagsReading)
                 .build()
         );
 
@@ -98,7 +102,7 @@ public class Task {
                 .description("Blogging about Lambda Functions")
                 .createdOn(LocalDate.of(2018, 11, 5))
                 .type(TaskType.BLOGGING)
-                .tags(tags)
+                .tags(tagsBlogging)
                 .build()
         );
         tasks.add(
@@ -108,7 +112,7 @@ public class Task {
                 .description("Blogging about Lambda Functions")
                 .createdOn(LocalDate.of(2018, 11, 5))
                 .type(TaskType.BLOGGING)
-                .tags(tags)
+                .tags(tagsBlogging)
                 .build()
         );
         return tasks;
