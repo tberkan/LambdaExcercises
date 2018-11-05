@@ -1,5 +1,6 @@
 import domain.Task;
 import domain.TaskType;
+
 import java.util.*;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
@@ -12,24 +13,29 @@ public class Task2 {
     private static final Predicate<Task> READING_TASKS_PREDICATE = t -> t.getType() == TaskType.READING;
 
     public static void main(String[] args) {
-
         //Subtask 1
         readingTaskTitles().forEach(out::println);
+        out.println("\n");
 
         //Subtask 2
         readingTaskReverse().forEach(out::println);
+        out.println("\n");
 
         //Subtask 3
         distinctTasks().forEach(out::println);
+        out.println("\n");
 
         //Subtask 4
         topTwoReadingTasks().forEach(out::println);
+        out.println("\n");
 
         //Subtask 5
         uniqueTags().forEach(out::println);
+        out.println("\n");
 
         //Subtask 6
         out.println(readingTagBooks());
+        out.println("\n");
 
         //Subtask 7
         titlesSummary().forEach(out::println);
@@ -54,6 +60,7 @@ public class Task2 {
                 .collect(Collectors.toList());
     }
 
+    //Find distinct tasks.
     private static List<Task> distinctTasks() {
         return TASKS
                 .stream()
@@ -61,6 +68,7 @@ public class Task2 {
                 .collect(Collectors.toList());
     }
 
+    //Find top 2 reading tasks sorted by creation date.
     private static List<Task> topTwoReadingTasks() {
         return TASKS
                 .stream()
@@ -70,6 +78,7 @@ public class Task2 {
                 .collect(Collectors.toList());
     }
 
+    //Find all unique tags from all tasks.
     private static Set<String> uniqueTags() {
         return TASKS
                 .stream()
@@ -77,6 +86,7 @@ public class Task2 {
                 .collect(Collectors.toSet());
     }
 
+    //Check if all reading tasks have tag books.
     private static boolean readingTagBooks() {
         return TASKS
                 .stream()
@@ -84,6 +94,7 @@ public class Task2 {
                 .noneMatch(t -> t.getTags().isEmpty());
     }
 
+    //Creating a summary of all titles.
     private static List<String> titlesSummary() {
         return TASKS
                 .stream()
