@@ -1,31 +1,93 @@
-import static java.lang.System.out;
-
 import domain.Task;
 import domain.TaskType;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
+import java.util.function.Predicate;
+import java.util.stream.Collectors;
+
+import static java.lang.System.out;
 
 public class Task2 {
 
-    public static void main(String[] args) {
-        List<Task> tasks = Task.getTasks();
+    private static final List<Task> TASKS = Task.getTasks();
+    private static final Predicate<Task> READING_TASKS_PREDICATE = t -> t.getType() == TaskType.READING;
 
-        List<Task> readingTasks = new ArrayList<>();
-        for (Task task : tasks) {
-            if (task.getType() == TaskType.READING) {
-                readingTasks.add(task);
-            }
-        }
-        Collections.sort(readingTasks, new Comparator<Task>() {
-            @Override
-            public int compare(Task t1, Task t2) {
-                return t1.getTitle().length() - t2.getTitle().length();
-            }
-        });
-        for (Task readingTask : readingTasks) {
-            out.println(readingTask.getTitle());
-        }
+    public static void main(String[] args) {
+
+        //Subtask 1
+        readingTaskTitles().forEach(out::println);
+
+        //Subtask 2
+        readingTaskReverse().forEach(out::println);
+
+        //Subtask 3
+        distinctTasks().forEach(out::println);
+
+        //Subtask 4
+        topTwoReadingTasks().forEach(out::println);
+
+        //Subtask 5
+        uniqueTags().forEach(out::println);
+
+        //Subtask 6
+        out.println(readingTagBooks());
+
+        //Subtask 7
+        titlesSummary().forEach(out::println);
+    }
+
+    //Find all reading task titles sorted by their creation date.
+    private static List<String> readingTaskTitles() {
+        return TASKS
+                .stream()
+                .filter(READING_TASKS_PREDICATE)
+                .sorted(Comparator.comparing(Task::getCreatedOn))
+                .map(Task::getTitle)
+                .collect(Collectors.toList());
+    }
+
+    //Find all reading tasks sorted by creation date in reverse.
+    private static List<Task> readingTaskReverse() {
+        return TASKS
+                .stream()
+                .filter(READING_TASKS_PREDICATE)
+                .sorted(Comparator.comparing(Task::getCreatedOn).reversed())
+                .collect(Collectors.toList());
+    }
+
+    private static List<Task> distinctTasks() {
+        return TASKS
+                .stream()
+                .distinct()
+                .collect(Collectors.toList());
+    }
+
+    private static List<Task> topTwoReadingTasks() {
+        return TASKS
+                .stream()
+                .filter(READING_TASKS_PREDICATE)
+                .sorted(Comparator.comparing(Task::getCreatedOn))
+                .limit(2)
+                .collect(Collectors.toList());
+    }
+
+    private static Set<String> uniqueTags() {
+        return TASKS
+                .stream()
+                .flatMap(t -> t.getTags().stream())
+                .collect(Collectors.toSet());
+    }
+
+    private static boolean readingTagBooks() {
+        return TASKS
+                .stream()
+                .filter(READING_TASKS_PREDICATE)
+                .noneMatch(t -> t.getTags().isEmpty());
+    }
+
+    private static List<String> titlesSummary() {
+        return TASKS
+                .stream()
+                .map(Task::getTitle)
+                .collect(Collectors.toList());
     }
 }
