@@ -13,6 +13,17 @@ public class Task2 {
     private static final Predicate<Task> READING_TASKS_PREDICATE = t -> t.getType() == TaskType.READING;
 
     public static void main(String[] args) {
+
+        //Refactored main method
+        List<String> readingTasks = TASKS
+                .stream()
+                .filter(READING_TASKS_PREDICATE)
+                .sorted(Comparator.comparingInt(t -> t.getTitle().length()))
+                .map(Task::getTitle)
+                .collect(Collectors.toList());
+        readingTasks.forEach(out::println);
+        out.println("\n");
+
         //Subtask 1
         readingTaskTitles().forEach(out::println);
         out.println("\n");
