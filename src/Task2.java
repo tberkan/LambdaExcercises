@@ -49,7 +49,7 @@ public class Task2 {
         out.println("\n");
 
         //Subtask 7
-        titlesSummary().forEach(out::println);
+        out.println(titlesSummary());
     }
 
     //Find all reading task titles sorted by their creation date.
@@ -106,10 +106,10 @@ public class Task2 {
     }
 
     //Creating a summary of all titles.
-    private static List<String> titlesSummary() {
+    private static String titlesSummary() {
         return TASKS
                 .stream()
                 .map(Task::getTitle)
-                .collect(Collectors.toList());
+                .collect(Collectors.joining(" *** "));
     }
 }

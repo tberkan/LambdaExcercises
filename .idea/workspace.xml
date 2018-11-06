@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fb4a932-205f-4c56-881b-f9a971df4920" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LambdaExcercises/Task1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LambdaExcercises/Task1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LambdaExcercises/Task2$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LambdaExcercises/Task2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LambdaExcercises/Task2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LambdaExcercises/domain/Task$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LambdaExcercises/domain/Task$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LambdaExcercises/domain/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LambdaExcercises/domain/Task.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task3.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,32 +26,34 @@
     <session id="2039318693">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="5" />
-          <entry key="java" value="2879" />
+          <entry key="java" value="4895" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2879" />
+          <entry key="JAVA" value="4895" />
           <entry key="PLAIN_TEXT" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="6" />
+          <entry key="java" value="7" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="6" />
+          <entry key="JAVA" value="7" />
           <entry key="Markdown" value="1" />
         </counts>
       </usages-collector>
@@ -66,11 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Task1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state>
+              <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -78,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Task2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+            <state relative-caret-position="1717">
+              <caret line="113" selection-start-line="110" selection-end-line="113" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,8 +85,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Task3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+            <state relative-caret-position="476">
+              <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -145,7 +140,6 @@
         <option value="$PROJECT_DIR$/src/Exercise_Lambdas.java" />
         <option value="$PROJECT_DIR$/src/Example1_Java7.java" />
         <option value="$PROJECT_DIR$/src/domain/TaskType.java" />
-        <option value="$PROJECT_DIR$/src/Task3.java" />
         <option value="$PROJECT_DIR$/src/domain/Task.java" />
         <option value="$PROJECT_DIR$/src/README.md" />
         <option value="$PROJECT_DIR$/src/Task1FuncInterface.java" />
@@ -153,6 +147,7 @@
         <option value="$PROJECT_DIR$/src/Task1.java" />
         <option value="$PROJECT_DIR$/src/T2.java" />
         <option value="$PROJECT_DIR$/src/Task2.java" />
+        <option value="$PROJECT_DIR$/src/Task3.java" />
       </list>
     </option>
   </component>
@@ -163,10 +158,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -190,6 +185,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -207,13 +203,12 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541431439751" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541516333586" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../RoboCall" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -237,7 +232,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Task2">
+  <component name="RunManager" selected="Application.Task3">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -307,16 +302,15 @@
     </configuration>
     <list>
       <item itemvalue="Application.Task1" />
-      <item itemvalue="Application.Task2" />
       <item itemvalue="Application.Task3" />
       <item itemvalue="Application.Task2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task3" />
         <item itemvalue="Application.Task2" />
         <item itemvalue="Application.Task2" />
         <item itemvalue="Application.Task1" />
-        <item itemvalue="Application.Task3" />
       </list>
     </recent_temporary>
   </component>
@@ -332,16 +326,19 @@
       <updated>1540912538989</updated>
       <workItem from="1540912546095" duration="16232000" />
       <workItem from="1541409324448" duration="12009000" />
+      <workItem from="1541431559721" duration="116000" />
+      <workItem from="1541493360770" duration="10084000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28241000" />
+    <option name="totallyTimeSpent" value="38441000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25100672" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25771812" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -351,7 +348,7 @@
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.32907802" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39910814" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -361,7 +358,7 @@
       <window_info anchor="bottom" id="SonarLint" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.2964539" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32907802" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -394,38 +391,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Task1FuncInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Predicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="54" column="42" selection-start-line="54" selection-end-line="54" selection-end-column="56" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="187">
-            <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Task1FuncInterface.java" />
+    <entry file="file://$PROJECT_DIR$/src/Predicate.java" />
     <entry file="file://$PROJECT_DIR$/src/domain/Task.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -450,16 +417,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Task2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -468,20 +425,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="187">
+            <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="54" column="42" selection-start-line="54" selection-end-line="54" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/stream/Collectors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-89">
+          <caret line="843" column="58" lean-forward="true" selection-start-line="843" selection-start-column="58" selection-end-line="843" selection-end-column="58" />
+          <folding>
+            <element signature="e#33990#33991#0" expanded="true" />
+            <element signature="e#34045#34046#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Task1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Task2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        <state relative-caret-position="1717">
+          <caret line="113" selection-start-line="110" selection-end-line="113" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -490,8 +470,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Task3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        <state relative-caret-position="476">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
